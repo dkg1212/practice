@@ -1,0 +1,32 @@
+{
+  "name": "namastay-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Akshay saini",
+  
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkg1212/practice.git"
+  },
+  "keywords": [
+    "react",
+    "namastae",
+    "react"
+  ],
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkg1212/practice/issues"
+  },
+  "homepage": "https://github.com/dkg1212/practice#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
