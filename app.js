@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const Title =()=>(
+const Title =(
 <h1 className="head" tabIndex="5">
     "Namastay React🚀"
     </h1>
@@ -9,7 +9,7 @@ const Title =()=>(
 
 const HeadingComponent =()=>(
     <div id="container">
-        <Title/>
+        {Title}
         <h1 className="heading">Namastay React From Functional component 🚀 </h1>
     </div>
 );
