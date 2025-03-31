@@ -1,18 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const heading=React.createElement("div",{},[
-    React.createElement("div",{},[
-        React.createElement("h1",{},"Helloworld From React 🚀"),
-        React.createElement("h2",{},"Helloworld From React")
-    ]),
-    React.createElement("div",{},[
-        React.createElement("h1",{},"Helloworld From React"),
-        React.createElement("h2",{},"Helloworld From React")
-    ])
-
-]);
+const jsxHeading=(
+<h1 className="head" tabIndex="5">
+    "Namastay React🚀"
+    </h1>
+);
 
 const root= ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(heading);
+root.render(jsxHeading)
