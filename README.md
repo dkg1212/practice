@@ -31,3 +31,10 @@ import Component from "path";
 
 export const Component;
 import {Component} from "path";
+
+- .JSX and .JS extentions are same not different 
+
+# React Hooks
+ (Normal JS utility functions)
+- useState() - Superpowerful State Variables in react
+- useEffect()

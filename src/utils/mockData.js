@@ -467,8 +467,9 @@ const resList = [
         "cuisines": [
           "Chinese"
         ],
+        "avgRating": 3.8,
         "parentId": "2551",
-        "avgRatingString": "--",
+        "avgRatingString": "3.8",
         "sla": {
           "deliveryTime": 25,
           "lastMileTravel": 2.2,
