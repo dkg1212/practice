@@ -1,7 +1,7 @@
 {
   "name": "namastay-react",
   "version": "1.0.0",
-  "description": "This is Namaste React by Akshay saini",
+  "description": "This is Namaste React by Akshay Saini",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
