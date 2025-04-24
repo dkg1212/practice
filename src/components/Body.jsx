@@ -20,11 +20,11 @@ const Body = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-        "https://www.swiggy.com/mapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=26.6528495&lng=92.7925592&carousel=true&third_party_vendor=1 "
+        "https://www.swiggy.com/mapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=26.6528495&lng=92.7925592&carousel=true&third_party_vendor=1"
     );
 
     const json = await data.json();
-    const restaurants = json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+    const restaurants = json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
 
     // Optional Chaining
     setListOfRestraunt(restaurants);
